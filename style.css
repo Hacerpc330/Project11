@@ -1,0 +1,97 @@
+body{
+    background-color: darkgray;
+}
+.fontwesome{
+    background-color: darkslateblue;
+    width: 50%;
+    height: 100px;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    transition: all 0.8s;
+}
+.fontwesome:hover{ 
+    background-color: #FFCCCC;
+    width: 100%;
+
+}
+.fab{
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.box_wraper{
+    background-color: darkslateblue;
+    margin-top: 30px;
+    height: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    transition-delay: .5s;
+}
+.tor {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    transform: skew(50deg);
+    animation: skew 3s infinite; 
+    margin: auto;
+}
+@keyframes skew {
+    0% { transform: skewY(20deg);}   
+    50% { transform: skewY(-30deg);}
+    100% { transform: skewY(30deg);}  
+}
+.box_wrape:hover{
+    width: 100%;
+}
+div .img_back{
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+}
+.block{
+    background: url("./img/1200x600.jpg");
+}
+.universe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 220px;
+}
+.mother{
+    width: 30%;
+}
+.box_img{
+    width: 100%;
+    height: 200px;
+}
+.box_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.universe2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 220px;  
+    margin-top: 10px;
+}
+.mother2{
+    width: 30%;
+}
+.box_img2{
+    width: 25%;
+    height: 200px;
+}
+.box_img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill; 
+}
+.hero-image {
+    background-image: url("./img/1200x600.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
